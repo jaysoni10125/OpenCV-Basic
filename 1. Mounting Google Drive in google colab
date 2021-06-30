@@ -1,0 +1,16 @@
+First we need to mount the google drive into the google colab, then only we will be able to open the images and test on them with our code.
+Write(Copy nd Paste) the below code in google colab and hit "ctrl + enter".
+
+from google.colab import drive
+drive.mount('/gdrive')
+%cd /gdrive
+
+Then a link will be provided after the code runs, visit that link to attach your Gdrive account and copy the Autentication code provided in the website.
+You will be asked about that authentication code below the website link so as to link your account.
+
+After completing the process you will be able to see that your Gdrive has been mounted in Google Colab.
+
+OR
+
+You can directly open the google colab from the Google Drive by right clicking and then selecting more and in that selecting the Google Colab.
+This way your google drive will be mounted automatically to the Google colab
